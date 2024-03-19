@@ -24,7 +24,8 @@ public class ForLoopEx {
 			// 1~9 반복
 		
 			// 결과 출력
-			System.out.println(dan + "*" + num + "=" + dan*num);
+			System.out.println(dan + "*"
+					+ " " + num + "=" + dan*num);
 			
 			// 스캐너 닫기
 			scanner.close();
