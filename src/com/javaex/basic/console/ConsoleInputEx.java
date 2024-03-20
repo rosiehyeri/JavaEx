@@ -24,6 +24,8 @@ public class ConsoleInputEx {
 		// 스캐너 닫기
 		scanner.close();
 		
+		
+		
 
 	}
 
