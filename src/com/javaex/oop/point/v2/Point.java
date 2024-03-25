@@ -1,4 +1,4 @@
-package com.javaex.oop.point.v1;
+package com.javaex.oop.point.v2;
 
 //아래와 같이 클래스를 정의하여 프로그램을 작성하세요
 //Point 클래스를 만드세요
@@ -11,12 +11,19 @@ package com.javaex.oop.point.v1;
 //점[x=5, y=5]을 그렸습니다.
 //점[x=10, y=23]을 그렸습니다.
 
+//v2. 기본 생성자, 모든 필드 생성자
 public class Point {
 
 	//필드 (은닉)
 	private int x;
 	private int y;
 	
+	  // 기본 생성자
+    public Point() {
+        
+    }
+    
+    // 모든 필드를 초기화할 수 있는 생성자
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
