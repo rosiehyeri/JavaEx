@@ -33,7 +33,7 @@ public class SwitchEx2 {
 			message = "28일입니다.";
 			break;
 		default :
-			message = "?";
+			message = "존재하지 않는 달입니다";
 			break;
 	}
 		System.out.println(mon +"월은 " + message);

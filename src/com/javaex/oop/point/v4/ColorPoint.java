@@ -1,0 +1,42 @@
+package com.javaex.oop.point.v4;
+
+
+// 상속 extends
+public class ColorPoint extends Point{
+	
+	//필드
+	private String color;
+//	ColorPoint cp1 = new ColorPoint("red");
+//	ColorPoint cp2 = new Colorpoint(10, 10, "blue");
+
+	//생성자
+	public ColorPoint(String color) {
+		// 생성자 내에서 부모 생성자를 호출하지 않으면 부모의 기본 생성자를 호출
+		super(0,0);
+		this.color = color;
+	}
+	
+	public ColorPoint(int x, int y, String color) {
+		super(x, y); 	//부모 생성자 호출
+		this.color = color;
+	}
+	
+	//getters/setters
+	public String getColor() {
+		return color;
+	}
+	public void setColor() {
+		this.color = color;
+	}
+	@Override			//현재 메서드가 오버라이드인지 확인
+	public void draw() {
+		//getter 이용 우회 접근
+		System.out.printf("색깔점 [x=%d, y=%d, color=%을 찍었습니다.]", super.getX(), super.getY(), color);
+		System.out.printf("색깔점 [x=%d, y=%d, color=%을 찍었습니다.]", x, y, color);
+	}
+	
+	@Override
+	public void test() {
+		
+	}
+}
