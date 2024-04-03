@@ -72,7 +72,7 @@ public class StringEx {
 		System.out.println("replace: " + str.replace("Programming", "Coding"));
 
 		String str2 = "           Hello           ";
-		String str3 = ", Java";
+		String str3 = ", Java"; 
 		// 화이트 스페이스(공백, 개행, 탭문자 등) 지우기
 		String str4 = str2.trim(); // 화이트 스페이스 지우기
 		System.out.println(str4 + str3);

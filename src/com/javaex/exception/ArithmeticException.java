@@ -1,14 +1,13 @@
- package com.javaex.exception;
-
+package com.javaex.exception;
 
 import java.util.Scanner;
 
-public class ArithmeticException{
+public class ArithmeticException {
 
 	// 정수 1개 입력
 	// 100을 입력받은 정수로 나눔
 	// 나는 결과를 화면에 출력
-	
+
 	public ArithmeticException(String message) {
 		// TODO Auto-generated constructor stub
 	}

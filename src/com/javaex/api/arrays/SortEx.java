@@ -77,7 +77,7 @@ public class SortEx {
 		System.out.println("오름차순 정렬" + Arrays.toString(members));
 
 		Arrays.sort(members, Collections.reverseOrder());
-		System.out.println("내림차순 정렬" + Arrays.toString(members));
+		System.out.println("내림차순 정렬" + Arrays.toString(members)); 
 	}
 
 }
