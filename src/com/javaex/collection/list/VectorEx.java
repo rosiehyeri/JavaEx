@@ -19,7 +19,7 @@ public class VectorEx {
 
 		// 허용 용량 초과
 		v.addElement(10); // 버퍼 용량 10이 두개로 이어짐
-		System.out.println("Size: " + v.size() + ", Capacity: " + v.capacity());
+		System.out.println("Size: " + v.size() + ",  Capacity: " + v.capacity());
 
 		// 조회 : elementAt
 		Integer val = (Integer) v.elementAt(5); // elementAt은 object를 return 한다

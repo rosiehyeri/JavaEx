@@ -1,5 +1,9 @@
 package com.javaex.collection.list;
 
+
+// 추가 add
+// 참조 set
+// 제거 remove
 import java.util.LinkedList;
 import java.util.List;
 
@@ -37,7 +41,7 @@ public class ListEx {
 		lst.remove("Python");
 		System.out.println("lst: " + lst);
 
-		// TOOD: list 순회
+		// TODO: list 순회
 
 		// 비워봅시다
 		lst.clear();
