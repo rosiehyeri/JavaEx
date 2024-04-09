@@ -55,7 +55,7 @@ public class HashTableEx {
 		Map<String, ClassRoom> map = new Hashtable<>();
 
 		// Map에 데이터 넣기 : put 메서드
-		map.put("101", new ClassRoom("Java", "R101"));
+		map.put("101", new ClassRoom("Java", "R101"));		// (Key, value)
 		map.put("202", new ClassRoom("C", "R202"));
 		map.put("303", new ClassRoom("Python", "R303"));
 		map.put("404", new ClassRoom("Linux", "R404"));

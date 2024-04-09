@@ -21,7 +21,7 @@ public class QueueEx {
 		System.out.println("QUEUE:" + queue);
 		
 		//	poll 할 때는 비어있는지 체크
-		while(!queue.isEmpty()) {	//	큐가 비어있이 않은 동안 루프
+		while(!queue.isEmpty()) {	//	큐가 비어있지 않은 동안 루프
 			System.out.println("POLL:" + queue.poll());
 			System.out.println("QUEUE:" + queue);
 		}
