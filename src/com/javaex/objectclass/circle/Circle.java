@@ -25,6 +25,6 @@ public class Circle {
 	//문자열 출력 메서드
 	@Override
 	public String toString() {
-		return "Circle [x=" + x + ", y=" + y + ", radius"];
+		return "Circle [x=" + x + ", y=" + y + ", radius]";
 	}
 }

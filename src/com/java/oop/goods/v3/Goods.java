@@ -26,7 +26,7 @@ public class Goods {
 	}
 //	public void setName(String name) {
 //		this.name = name;		//외부로부터 전달받은 데이터의 식별자
-	}
+//	}
 	public int getPrice() {
 		return price;
 	}
@@ -38,7 +38,7 @@ public class Goods {
 //			this.price = price;
 //		}
 	
-	}
+//	}
 	
 	// 일반 메서드
 	public void showInfo() {

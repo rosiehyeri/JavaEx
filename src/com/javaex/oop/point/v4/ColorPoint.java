@@ -36,7 +36,11 @@ public class ColorPoint extends Point{
 	}
 	
 	@Override
-	public void test() {
+	public void draw(boolean bDraw) {
+		String message = String.format("색깔점[x=%d, y=%d, color=%s]을 ", 
+				x, y, color);
+		message += bDraw ? "그렸습니다." : "지웠습니다.";
+		System.out.println(message);
 		
 	}
 }

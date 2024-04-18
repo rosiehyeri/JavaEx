@@ -4,8 +4,8 @@ package com.javaex.oop.goods.v2;
 public class Goods {
 	// 필드 선언
 	// instance 영역
-	private String name;	// 상품명
-	private int price;		// 가격
+	public String name;	// 상품명
+	public int price;		// 가격
 	
 
 	

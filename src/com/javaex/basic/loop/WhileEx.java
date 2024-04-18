@@ -11,7 +11,7 @@ public class WhileEx {
 		int num = 0;		// 초기화
 		
 		while(num <= 20) {
-		System.out.println("I Like Java" + num);
+		System.out.println("I Like Java " + num + "번째 말하는 중");
 		//반복 제어 변수 증감
 		num += 1;
 		}

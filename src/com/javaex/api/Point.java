@@ -13,11 +13,13 @@ public class Point { 	//extends java.lang.Object 생략된 것
 		this.x=x;
 		this.y=y;
 	}
+
+	@Override
+	public String toString() {
+		return "Point [x=" + x + ", y=" + y + "]";
+	}
 	
 	//toString : 객체 정보를 문자열로 출력할 때 호출되는 메서드
-	@Override 
-	public String toString() {
-		return "point("+ x +, 
-	}
+	
 
 }
