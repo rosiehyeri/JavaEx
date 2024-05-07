@@ -15,7 +15,6 @@ public class SelectTest {
 		
 		// Connection, Statement, ResultSet
 		
-		
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rs = null;
@@ -24,7 +23,7 @@ public class SelectTest {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conn = DriverManager.getConnection(dbur1, dbuser, dbpass);
 			stmt = conn.createStatement();
-			rs = null;
+//			rs = null;
 			
 				String sql = "SELECT department_id, department_name FROM departments";
 				
